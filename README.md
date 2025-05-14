@@ -109,18 +109,7 @@ contract = w3.eth.contract(abi=abi, bytecode=bytecode)
 tx_hash = contract.constructor().transact()
 tx_receipt = w3.eth.waitForTransactionReceipt(tx_hash)
 print(f"Contract deployed at: {tx_receipt.contractAddress}")
-Project Structure
-ai-crypto-assistant/
-├── app.py                  # Main Streamlit application
-├── contracts/
-│   └── VectorOperations.sol # Smart contract source
-├── utils/
-│   ├── blockchain.py       # Blockchain interaction functions
-│   ├── crypto.py           # Crypto API functions
-│   └── ai.py               # AI processing functions
-├── .env.example            # Environment template
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
+
 API Requirements
 You'll need accounts with:
 
