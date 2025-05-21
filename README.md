@@ -78,7 +78,7 @@ Usage
 Start the Streamlit app:
 
 bash
-streamlit run app.py
+streamlit run blockchain.py
 In the web interface:
 
 Upload documents in the sidebar
@@ -124,5 +124,6 @@ Infura (for Ethereum access)
 License
 MIT License
 
-Support
-For issues or questions, please open an issue on GitHub.
+Participants:
+Amirkhan Turgimbayev (SE-2322)
+Temirlan Turgimbayev (SE-2321)
